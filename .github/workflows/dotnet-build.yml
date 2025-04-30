@@ -15,12 +15,6 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v3     
 
-      - name: Configurar permissões para script
-        run: chmod +x monitoramento.sh  
-
-      - name: Executar script personalizado
-        run: ./monitoramento.sh  
-
       - name: Exibir mensagem de conclusão
         run: echo "Execução concluída com sucesso!"
 
